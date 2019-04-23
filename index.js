@@ -16,7 +16,7 @@ button.addEventListener("click", function() {
     } else {
         temp = "Player 2 wins";
     }
-    
+
     output.innerHTML = temp;
     console.log(rolls);
 
@@ -26,5 +26,7 @@ button.addEventListener("click", function() {
 
 function roll(num) {
     let rNumber = Math.floor(Math.random()*num) + 1;
-    return rNumber;
+    let n = 9855 + rNumber;
+    let char = "&#"+n+";";
+    return rNumber + "" + char;
 }
