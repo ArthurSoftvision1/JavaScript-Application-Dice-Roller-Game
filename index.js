@@ -5,4 +5,11 @@ const output = document.querySelector("output");
 
 button.addEventListener("click", function() {
     console.log("works");
+    let rolls = [roll(6),roll(6)];
+    console.log(rolls);
 });
+
+function roll(num) {
+    let rNumber = Math.floor(Math.random()*num) + 1;
+    return rNumber;
+}
