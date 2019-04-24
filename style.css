@@ -10,7 +10,7 @@ button {
     width: 450px;
 }
 
-.dicer{
+.dicer {
     border: 1px solid black;
     width: 88px;
     height: 94px;
@@ -34,7 +34,7 @@ button {
     margin: 2px;
 }
 
-.viewer{
+.viewer {
     display: inline-block;
     width: 211px;
     height: 150px;
@@ -42,7 +42,7 @@ button {
     padding: 5px;
 }
 
-.namer{
+.namer {
     display: inline-block;
     font-family: cursive;
     font-size: 20px;

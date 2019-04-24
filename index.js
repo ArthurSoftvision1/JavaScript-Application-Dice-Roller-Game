@@ -12,11 +12,9 @@ button.addEventListener("click", function () {
 
     if(rolls[0] == rolls[1]) { 
         temp="Draw"; 
-    }
-    else if(rolls[0] > rolls[1]) { 
+    } else if(rolls[0] > rolls[1]) { 
         temp="Player 1 wins"; 
-    }
-    else { 
+    } else { 
         temp="Player 2 wins"; 
     }
 
@@ -51,7 +49,7 @@ function builder(num) {
         }
         div.appendChild(span);
     }
-    
+
     div.setAttribute("class","dicer");
     return div;
 }
